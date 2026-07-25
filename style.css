@@ -602,3 +602,13 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* 装饰性交互元素：纯展示无实际功能，统一隐藏 */
+.menu,
+.footer-btn,
+.top-tabs,
+.sub-tabs,
+.topbar-right,
+.pagination {
+  display: none;
+}
