@@ -609,8 +609,6 @@ body {
 .top-tabs,
 .sub-tabs,
 .topbar-right,
-.pagination,
-.drag-handle,
-.action-buttons {
+.pagination {
   display: none;
 }

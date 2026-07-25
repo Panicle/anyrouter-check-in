@@ -69,7 +69,7 @@ function renderSummary(summary) {
 function renderAccountList(accounts, timestamp) {
   const tbody = document.getElementById('accountTbody');
   if (!accounts || accounts.length === 0) {
-    tbody.innerHTML = '<tr><td colspan="7" class="loading">暂无数据</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="5" class="loading">暂无数据</td></tr>';
     document.getElementById('listInfo').textContent = '暂无账号';
     return;
   }
@@ -85,7 +85,6 @@ function renderAccountList(accounts, timestamp) {
 
     return `
       <tr>
-        <td><span class="drag-handle">⋮⋮</span></td>
         <td>
           <div class="account-name">${escapeHtml(acc.name)}</div>
           <div class="account-provider">${escapeHtml(acc.provider || '')}</div>
@@ -117,16 +116,6 @@ function renderAccountList(accounts, timestamp) {
             <div class="balance-time">${formatDateTime(checkinTime)}</div>
           </div>
         </td>
-        <td>
-          <div class="action-buttons">
-            <button class="action-btn">|<</button>
-            <button class="action-btn primary">签到</button>
-            <button class="action-btn">余额</button>
-            <button class="action-btn">历史</button>
-            <button class="action-btn">编辑</button>
-            <button class="action-btn danger">删除</button>
-          </div>
-        </td>
       </tr>
     `;
   }).join('');
@@ -154,7 +143,7 @@ async function init() {
   const data = await loadData();
   if (!data) {
     document.getElementById('accountTbody').innerHTML =
-      '<tr><td colspan="7" class="loading">数据加载失败，请确认签到脚本已运行并生成 data/latest.json</td></tr>';
+      '<tr><td colspan="5" class="loading">数据加载失败，请确认签到脚本已运行并生成 data/latest.json</td></tr>';
     return;
   }
   renderSummary(data.summary);
