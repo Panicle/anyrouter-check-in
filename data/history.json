@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-07-25T13:28:40",
+    "timestamp": "2026-07-25T19:08:57",
     "summary": {
       "total_accounts": 2,
       "checked_in_today": 2,
@@ -12,9 +12,9 @@
       "queried_count": 2,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-07-25T13:28:40",
+      "last_query_time": "2026-07-25T19:08:57",
       "total_runs": 0,
-      "last_run_time": "2026-07-25T13:28:40",
+      "last_run_time": "2026-07-25T19:08:57",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -30,7 +30,7 @@
         "total_quota": 3175.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-25T13:28:40"
+        "last_check_in": "2026-07-25T19:08:57"
       },
       {
         "name": "github_94395",
@@ -43,7 +43,7 @@
         "total_quota": 1180.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-25T13:28:40"
+        "last_check_in": "2026-07-25T19:08:57"
       }
     ]
   }
