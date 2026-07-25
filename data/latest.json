@@ -1,0 +1,48 @@
+{
+  "timestamp": "2026-07-25T09:08:04",
+  "summary": {
+    "total_accounts": 2,
+    "checked_in_today": 2,
+    "failed_accounts": 0,
+    "session_expired": 0,
+    "total_balance": 3360.73,
+    "total_used": 994.27,
+    "total_quota": 4355.0,
+    "queried_count": 2,
+    "total_requests": 0,
+    "request_used_quota": 0,
+    "last_query_time": "2026-07-25T09:08:04",
+    "total_runs": 1,
+    "last_run_time": "2026-07-25T09:08:04",
+    "notify_status": "已配置",
+    "retry_interval_minutes": 30
+  },
+  "accounts": [
+    {
+      "name": "github_8058",
+      "provider": "anyrouter",
+      "status": "正常",
+      "check_in_success": true,
+      "check_in_message": "今日已签到",
+      "balance": 2933.08,
+      "used": 241.92,
+      "total_quota": 3175.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": "2026-07-25T09:08:04"
+    },
+    {
+      "name": "github_94395",
+      "provider": "agentrouter",
+      "status": "正常",
+      "check_in_success": true,
+      "check_in_message": "今日已签到",
+      "balance": 427.65,
+      "used": 752.35,
+      "total_quota": 1180.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": "2026-07-25T09:08:04"
+    }
+  ]
+}
