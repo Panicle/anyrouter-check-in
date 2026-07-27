@@ -1,20 +1,20 @@
 [
   {
-    "timestamp": "2026-07-26T19:12:25",
+    "timestamp": "2026-07-27T02:42:01",
     "summary": {
       "total_accounts": 2,
-      "checked_in_today": 2,
-      "failed_accounts": 0,
+      "checked_in_today": 1,
+      "failed_accounts": 1,
       "session_expired": 0,
-      "total_balance": 3385.73,
-      "total_used": 994.27,
-      "total_quota": 4380.0,
-      "queried_count": 2,
+      "total_balance": 2983.08,
+      "total_used": 241.92,
+      "total_quota": 3225.0,
+      "queried_count": 1,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-07-26T19:12:25",
+      "last_query_time": "2026-07-27T02:42:01",
       "total_runs": 0,
-      "last_run_time": "2026-07-26T19:12:25",
+      "last_run_time": "2026-07-27T02:42:01",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -25,25 +25,25 @@
         "status": "正常",
         "check_in_success": true,
         "check_in_message": "今日已签到",
-        "balance": 2958.08,
+        "balance": 2983.08,
         "used": 241.92,
-        "total_quota": 3200.0,
+        "total_quota": 3225.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-26T19:12:25"
+        "last_check_in": "2026-07-27T02:42:01"
       },
       {
         "name": "github_94395",
         "provider": "agentrouter",
-        "status": "正常",
-        "check_in_success": true,
-        "check_in_message": "今日已签到",
-        "balance": 427.65,
-        "used": 752.35,
-        "total_quota": 1180.0,
+        "status": "异常",
+        "check_in_success": false,
+        "check_in_message": "签到失败",
+        "balance": 0.0,
+        "used": 0.0,
+        "total_quota": 0.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-26T19:12:25"
+        "last_check_in": null
       }
     ]
   }
