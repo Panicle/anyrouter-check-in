@@ -1,20 +1,20 @@
 [
   {
-    "timestamp": "2026-07-27T03:13:48",
+    "timestamp": "2026-07-27T09:54:24",
     "summary": {
       "total_accounts": 5,
       "checked_in_today": 2,
       "failed_accounts": 3,
       "session_expired": 0,
-      "total_balance": 3511.17,
-      "total_used": 3054.69,
+      "total_balance": 3509.63,
+      "total_used": 3056.23,
       "total_quota": 6565.86,
       "queried_count": 4,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-07-27T03:13:48",
+      "last_query_time": "2026-07-27T09:54:24",
       "total_runs": 0,
-      "last_run_time": "2026-07-27T03:13:48",
+      "last_run_time": "2026-07-27T09:54:24",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -25,12 +25,12 @@
         "status": "正常",
         "check_in_success": true,
         "check_in_message": "今日已签到",
-        "balance": 452.65,
-        "used": 752.35,
+        "balance": 451.11,
+        "used": 753.89,
         "total_quota": 1205.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-27T03:13:48"
+        "last_check_in": "2026-07-27T09:54:24"
       },
       {
         "name": "Account 2",
@@ -43,7 +43,7 @@
         "total_quota": 3225.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-27T03:13:48"
+        "last_check_in": "2026-07-27T09:54:24"
       },
       {
         "name": "Account 3",
@@ -56,7 +56,7 @@
         "total_quota": 10.43,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-27T03:13:48"
+        "last_check_in": "2026-07-27T09:54:24"
       },
       {
         "name": "Account 4",
@@ -82,7 +82,7 @@
         "total_quota": 2125.43,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-07-27T03:13:48"
+        "last_check_in": "2026-07-27T09:54:24"
       }
     ]
   }
