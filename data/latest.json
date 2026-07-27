@@ -1,9 +1,9 @@
 {
-  "timestamp": "2026-07-27T02:58:48",
+  "timestamp": "2026-07-27T03:04:05",
   "summary": {
-    "total_accounts": 2,
+    "total_accounts": 5,
     "checked_in_today": 2,
-    "failed_accounts": 0,
+    "failed_accounts": 3,
     "session_expired": 0,
     "total_balance": 3435.73,
     "total_used": 994.27,
@@ -11,28 +11,15 @@
     "queried_count": 2,
     "total_requests": 0,
     "request_used_quota": 0,
-    "last_query_time": "2026-07-27T02:58:48",
+    "last_query_time": "2026-07-27T03:04:05",
     "total_runs": 1,
-    "last_run_time": "2026-07-27T02:58:48",
+    "last_run_time": "2026-07-27T03:04:05",
     "notify_status": "已配置",
     "retry_interval_minutes": 30
   },
   "accounts": [
     {
-      "name": "github_8058",
-      "provider": "anyrouter",
-      "status": "正常",
-      "check_in_success": true,
-      "check_in_message": "今日已签到",
-      "balance": 2983.08,
-      "used": 241.92,
-      "total_quota": 3225.0,
-      "check_in_reward": 0.0,
-      "usage_increase": 0.0,
-      "last_check_in": "2026-07-27T02:58:48"
-    },
-    {
-      "name": "github_94395",
+      "name": "Account 1",
       "provider": "agentrouter",
       "status": "正常",
       "check_in_success": true,
@@ -42,7 +29,59 @@
       "total_quota": 1205.0,
       "check_in_reward": 0.0,
       "usage_increase": 0.0,
-      "last_check_in": "2026-07-27T02:58:48"
+      "last_check_in": "2026-07-27T03:04:05"
+    },
+    {
+      "name": "Account 2",
+      "provider": "anyrouter",
+      "status": "正常",
+      "check_in_success": true,
+      "check_in_message": "今日已签到",
+      "balance": 2983.08,
+      "used": 241.92,
+      "total_quota": 3225.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": "2026-07-27T03:04:05"
+    },
+    {
+      "name": "Account 3",
+      "provider": "可萌中转站",
+      "status": "异常",
+      "check_in_success": false,
+      "check_in_message": "签到失败",
+      "balance": 0.0,
+      "used": 0.0,
+      "total_quota": 0.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": null
+    },
+    {
+      "name": "Account 4",
+      "provider": "君的公益站",
+      "status": "异常",
+      "check_in_success": false,
+      "check_in_message": "签到失败",
+      "balance": 0.0,
+      "used": 0.0,
+      "total_quota": 0.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": null
+    },
+    {
+      "name": "Account 5",
+      "provider": "哈基米",
+      "status": "异常",
+      "check_in_success": false,
+      "check_in_message": "签到失败",
+      "balance": 0.0,
+      "used": 0.0,
+      "total_quota": 0.0,
+      "check_in_reward": 0.0,
+      "usage_increase": 0.0,
+      "last_check_in": null
     }
   ]
 }
