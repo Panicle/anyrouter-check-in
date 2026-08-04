@@ -1,20 +1,20 @@
 [
   {
-    "timestamp": "2026-08-03T19:38:34",
+    "timestamp": "2026-08-04T02:35:07",
     "summary": {
       "total_accounts": 5,
       "checked_in_today": 2,
       "failed_accounts": 3,
       "session_expired": 0,
-      "total_balance": 3521.06,
-      "total_used": 3577.55,
-      "total_quota": 7098.61,
-      "queried_count": 4,
+      "total_balance": 3554.03,
+      "total_used": 3583.6,
+      "total_quota": 7137.63,
+      "queried_count": 3,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-08-03T19:38:34",
+      "last_query_time": "2026-08-04T02:35:07",
       "total_runs": 0,
-      "last_run_time": "2026-08-03T19:38:34",
+      "last_run_time": "2026-08-04T02:35:07",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -25,25 +25,25 @@
         "status": "正常",
         "check_in_success": true,
         "check_in_message": "今日已签到",
-        "balance": 597.99,
+        "balance": 622.99,
         "used": 757.01,
-        "total_quota": 1355.0,
+        "total_quota": 1380.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-03T19:38:34"
+        "last_check_in": "2026-08-04T02:35:07"
       },
       {
         "name": "Account 2",
         "provider": "anyrouter",
         "status": "正常",
         "check_in_success": true,
-        "check_in_message": "今日已签到",
-        "balance": 2909.88,
-        "used": 490.12,
-        "total_quota": 3400.0,
+        "check_in_message": "今日已签到（期间消耗 $0.11）",
+        "balance": 2928.68,
+        "used": 496.32,
+        "total_quota": 3425.0,
         "check_in_reward": 0.0,
-        "usage_increase": 0.0,
-        "last_check_in": "2026-08-03T19:38:34"
+        "usage_increase": 0.11,
+        "last_check_in": "2026-08-04T02:35:07"
       },
       {
         "name": "Account 3",
@@ -51,12 +51,12 @@
         "status": "异常",
         "check_in_success": false,
         "check_in_message": "签到失败",
-        "balance": 10.83,
-        "used": 0.15,
-        "total_quota": 10.98,
+        "balance": 0.0,
+        "used": 0.0,
+        "total_quota": 0.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-03T19:38:34"
+        "last_check_in": null
       },
       {
         "name": "Account 4",
@@ -82,7 +82,7 @@
         "total_quota": 2332.63,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-03T19:38:34"
+        "last_check_in": "2026-08-04T02:35:07"
       }
     ]
   }
