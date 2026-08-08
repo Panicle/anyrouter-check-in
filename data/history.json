@@ -1,20 +1,20 @@
 [
   {
-    "timestamp": "2026-08-08T01:42:05",
+    "timestamp": "2026-08-08T06:55:08",
     "summary": {
       "total_accounts": 5,
       "checked_in_today": 2,
       "failed_accounts": 3,
       "session_expired": 0,
-      "total_balance": 3651.71,
-      "total_used": 3660.92,
-      "total_quota": 7312.63,
-      "queried_count": 3,
+      "total_balance": 3649.35,
+      "total_used": 1330.65,
+      "total_quota": 4980.0,
+      "queried_count": 2,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-08-08T01:42:05",
+      "last_query_time": "2026-08-08T06:55:08",
       "total_runs": 0,
-      "last_run_time": "2026-08-08T01:42:05",
+      "last_run_time": "2026-08-08T06:55:08",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -30,20 +30,20 @@
         "total_quota": 1455.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-08T01:42:05"
+        "last_check_in": "2026-08-08T06:55:08"
       },
       {
         "name": "Account 2",
         "provider": "anyrouter",
         "status": "正常",
         "check_in_success": true,
-        "check_in_message": "签到成功，获得 $25.00 额度",
+        "check_in_message": "今日已签到",
         "balance": 2958.09,
         "used": 566.91,
         "total_quota": 3525.0,
-        "check_in_reward": 25.0,
+        "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-08T01:42:05"
+        "last_check_in": "2026-08-08T06:55:08"
       },
       {
         "name": "Account 3",
@@ -77,12 +77,12 @@
         "status": "异常",
         "check_in_success": false,
         "check_in_message": "签到失败",
-        "balance": 2.36,
-        "used": 2330.27,
-        "total_quota": 2332.63,
+        "balance": 0.0,
+        "used": 0.0,
+        "total_quota": 0.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-08T01:42:05"
+        "last_check_in": null
       }
     ]
   }
