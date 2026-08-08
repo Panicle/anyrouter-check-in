@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-07T18:58:28",
+  "timestamp": "2026-08-08T01:42:05",
   "summary": {
     "total_accounts": 5,
     "checked_in_today": 2,
     "failed_accounts": 3,
     "session_expired": 0,
-    "total_balance": 3626.71,
+    "total_balance": 3651.71,
     "total_used": 3660.92,
-    "total_quota": 7287.63,
+    "total_quota": 7312.63,
     "queried_count": 3,
     "total_requests": 0,
     "request_used_quota": 0,
-    "last_query_time": "2026-08-07T18:58:28",
+    "last_query_time": "2026-08-08T01:42:05",
     "total_runs": 1,
-    "last_run_time": "2026-08-07T18:58:28",
+    "last_run_time": "2026-08-08T01:42:05",
     "notify_status": "已配置",
     "retry_interval_minutes": 30
   },
@@ -29,20 +29,20 @@
       "total_quota": 1455.0,
       "check_in_reward": 0.0,
       "usage_increase": 0.0,
-      "last_check_in": "2026-08-07T18:58:28"
+      "last_check_in": "2026-08-08T01:42:05"
     },
     {
       "name": "Account 2",
       "provider": "anyrouter",
       "status": "正常",
       "check_in_success": true,
-      "check_in_message": "今日已签到",
-      "balance": 2933.09,
+      "check_in_message": "签到成功，获得 $25.00 额度",
+      "balance": 2958.09,
       "used": 566.91,
-      "total_quota": 3500.0,
-      "check_in_reward": 0.0,
+      "total_quota": 3525.0,
+      "check_in_reward": 25.0,
       "usage_increase": 0.0,
-      "last_check_in": "2026-08-07T18:58:28"
+      "last_check_in": "2026-08-08T01:42:05"
     },
     {
       "name": "Account 3",
@@ -81,7 +81,7 @@
       "total_quota": 2332.63,
       "check_in_reward": 0.0,
       "usage_increase": 0.0,
-      "last_check_in": "2026-08-07T18:58:28"
+      "last_check_in": "2026-08-08T01:42:05"
     }
   ]
 }
