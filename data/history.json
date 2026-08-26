@@ -1,20 +1,20 @@
 [
   {
-    "timestamp": "2026-08-26T01:20:24",
+    "timestamp": "2026-08-26T06:51:19",
     "summary": {
       "total_accounts": 5,
-      "checked_in_today": 1,
-      "failed_accounts": 4,
+      "checked_in_today": 0,
+      "failed_accounts": 5,
       "session_expired": 0,
-      "total_balance": 1136.87,
-      "total_used": 768.13,
-      "total_quota": 1905.0,
-      "queried_count": 1,
+      "total_balance": 0.0,
+      "total_used": 0.0,
+      "total_quota": 0.0,
+      "queried_count": 0,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-08-26T01:20:24",
+      "last_query_time": "2026-08-26T06:51:19",
       "total_runs": 0,
-      "last_run_time": "2026-08-26T01:20:24",
+      "last_run_time": "2026-08-26T06:51:19",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
@@ -22,15 +22,15 @@
       {
         "name": "Account 1",
         "provider": "agentrouter",
-        "status": "正常",
-        "check_in_success": true,
-        "check_in_message": "今日已签到",
-        "balance": 1136.87,
-        "used": 768.13,
-        "total_quota": 1905.0,
+        "status": "异常",
+        "check_in_success": false,
+        "check_in_message": "签到失败",
+        "balance": 0.0,
+        "used": 0.0,
+        "total_quota": 0.0,
         "check_in_reward": 0.0,
         "usage_increase": 0.0,
-        "last_check_in": "2026-08-26T01:20:24"
+        "last_check_in": null
       },
       {
         "name": "Account 2",
