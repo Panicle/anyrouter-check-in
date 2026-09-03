@@ -1,6 +1,6 @@
 [
   {
-    "timestamp": "2026-09-03T03:19:05",
+    "timestamp": "2026-09-03T10:48:28",
     "summary": {
       "total_accounts": 5,
       "checked_in_today": 0,
@@ -12,9 +12,9 @@
       "queried_count": 0,
       "total_requests": 0,
       "request_used_quota": 0,
-      "last_query_time": "2026-09-03T03:19:05",
+      "last_query_time": "2026-09-03T10:48:28",
       "total_runs": 0,
-      "last_run_time": "2026-09-03T03:19:05",
+      "last_run_time": "2026-09-03T10:48:28",
       "notify_status": "已配置",
       "retry_interval_minutes": 30
     },
